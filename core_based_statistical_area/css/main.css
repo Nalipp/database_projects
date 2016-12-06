@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: monospace,"Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter";
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 4px 20px;
+}
+
+h1 {
+  font-size: 3em;
+  background-color: grey;
+  color: white;
+  padding: 20px 50px;
+}
+
+header h2 {
+  font-size: 1.5em;
+  padding: 20px 50px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 1em;
+  padding: 20px 50px;
+}
+
+.pop_select {
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.pop_select a {
+  margin-right: 20px;
+}

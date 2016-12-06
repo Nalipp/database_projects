@@ -1,4 +1,4 @@
-CREATE TABLE metropolitan_area (
+CREATE TABLE metro_area (
   id serial PRIMARY KEY,
   geographic_area text NOT NULL,
   state text NOT NULL,
