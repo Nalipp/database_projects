@@ -8,7 +8,7 @@
       <th>weighted density</th>
       <th>10yr density change</th>
     </tr>
-    <% @storage.all_populatations.each do |population| %>
+    <% @metro_query.each do |population| %>
       <tr>
         <td><%= population[:geographic_area] %></td>
         <td><%= population[:state] %></td>

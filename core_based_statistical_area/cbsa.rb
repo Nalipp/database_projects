@@ -31,6 +31,10 @@ get "/query_results" do
 end
 
 post "/population_form" do
-  binding.pry
-  params[:less_than_250k]
+  if params.empty?
+    @metro_query = @storage.all_populatations
+  else
+    @metro_query = @storage.custom_population_query(params)
+  end
+  erb :query_results, layout: :layout
 end
