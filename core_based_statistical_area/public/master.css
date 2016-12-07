@@ -16,6 +16,16 @@ a {
   padding: 4px 20px;
 }
 
+section.main {
+  border-top: 6px solid grey;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
+.table-wrapper {
+  margin-bottom: 100px;
+}
+
 h1 {
   font-size: 3em;
   background-color: grey;
@@ -45,7 +55,7 @@ h3 {
 }
 
 table {
-  margin: 0 50px;
+  margin: 50px 50px;
   text-align: left;
 }
 
@@ -53,7 +63,13 @@ table tr th {
   padding: 40px 16px 20px 0;
   font-size: 20px;
   text-align: center;
+  border-top: 2px solid grey;
   border-bottom: 2px solid grey;
+  border-right: 2px dotted grey;
+}
+
+table tr th:first-child {
+  border-left: 2px dotted grey;
 }
 
 table tr td {
