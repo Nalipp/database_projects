@@ -29,3 +29,8 @@ end
 get "/query_results" do
   erb :query_results, layout: :layout
 end
+
+post "/population_form" do
+  binding.pry
+  params[:less_than_250k]
+end

@@ -13,10 +13,18 @@
     </header>
     <section role="main" class="main">
       <div class="pop_select">
-        <a href="#"> > 250k people</a>
-        <a href="#">250k - 500k people</a>
-        <a href="#">500k - 1mil people</a>
-        <a href="#">1mil+ people</a>
+        <form class="checkbox" action="population_form" method="post">
+          <input type="checkbox" name="less_than_250k">
+          <label for="less_than_250k"> > 250k people</label>
+          <input type="checkbox" name="between_250k_500k">
+          <label for="less_than_250k"> 250k - 500k people</label>
+          <input type="checkbox" name="between_500k_1mil">
+          <label for="less_than_250k"> 500k - 1mil people</label>
+          <input type="checkbox" name="more_than_1mil">
+          <label for="less_than_250k"> 1mil+ people</label>
+          <br />
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </section>
       <%== yield %>
