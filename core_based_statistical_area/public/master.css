@@ -43,3 +43,30 @@ h3 {
 .pop_select a {
   margin-right: 20px;
 }
+
+table {
+  margin: 0 50px;
+  text-align: left;
+}
+
+table tr th {
+  padding: 40px 16px 20px 0;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 2px solid grey;
+}
+
+table tr td {
+  padding-left: 20px;
+  border-bottom: 2px solid grey;
+  border-right: 2px dotted grey;
+}
+
+table tr td:last-child {
+  border-right: none;
+}
+
+footer {
+  height: 140px;
+  background-color: grey;
+}

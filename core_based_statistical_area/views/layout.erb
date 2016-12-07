@@ -3,21 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>US cities population density</title>
-    <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/master.css" media="screen" title="no title">
   </head>
   <body>
     <header>
       <h1>US cities population density</h1>
       <h2>Analyzing population movments defined by us government <br /><a href="https://en.wikipedia.org/wiki/Core-based_statistical_area" target="_blank">core-based statistical areas</a></h2>
-      <h3>download <a href="http://www.census.gov/population/metro/data/pop_data.html" target="_blank">csv datasests</a> from the US Cenus Bureau <a href="https://www.nhgis.org/" target="_blank">nhgis</a> </h3>
+      <h3>download <a href="http://www.census.gov/population/metro/data/pop_data.html" target="_blank">csv datasests</a> from the US Cenus Bureau or <a href="https://data2.nhgis.org/main" target="_blank">nhgis</a> </h3>
     </header>
     <section role="main" class="main">
       <div class="pop_select">
-        <a href="#">less than 250,000 people</a>
-        <a href="#">250,000 - 500,000 people</a>
-        <a href="#">500,000 - 1,000,000 people</a>
-        <a href="#">more than 1,000,000 people</a>
+        <a href="#"> > 250k people</a>
+        <a href="#">250k - 500k people</a>
+        <a href="#">500k - 1mil people</a>
+        <a href="#">1mil+ people</a>
       </div>
     </section>
+      <%== yield %>
   </body>
+  <footer></footer>
 </html>
