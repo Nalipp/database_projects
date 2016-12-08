@@ -54,6 +54,58 @@ h3 {
   margin-right: 20px;
 }
 
+footer {
+  height: 140px;
+  background-color: grey;
+}
+
+input[type='checkbox']:checked {
+  background: black;
+}
+
+input[type='checkbox']:focus {
+  outline: none;
+}
+
+form button {
+  text-decoration: none;
+  color: black;
+  border: 2px solid grey;
+  border-radius: 20px;
+  padding: 4px 20px;
+  background-color: white;
+  font-size:1em;
+  margin-top: 40px;
+}
+
+form {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+label a {
+  display: inline-block;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+}
+
+th button {
+  font-size:1em;
+  font-family: monospace,"Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter";
+  font-weight: bold;
+  background: white;
+  border: none;
+  color: grey;
+  margin: 20px 0 20px 0;
+}
+
+/* tables */
+
 table {
   margin: 50px 50px;
   text-align: left;
@@ -82,42 +134,8 @@ table tr td:last-child {
   border-right: none;
 }
 
-footer {
-  height: 140px;
-  background-color: grey;
-}
+/* tablesorter  */
 
-input[type='checkbox']:checked {
-  background: black;
-}
-
-input[type='checkbox']:focus {
-  outline: none;
-}
-
-form button {
-  text-decoration: none;
-  color: black;
-  border: 2px solid grey;
-  border-radius: 20px;
-  padding: 4px 20px;
-  background-color: white;
-  font-size:1em;
-  margin-top: 40px;
-}
-
-form label {
-  -webkit-touch-callout: none;
-    -webkit-user-select: none;
-     -khtml-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-}
-
-label a {
-  display: inline-block;
-  padding: 20px;
-  width: 220px;
-  text-align: center;
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+  background-color: #8dbdd8;
 }

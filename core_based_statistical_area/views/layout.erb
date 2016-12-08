@@ -3,7 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>US cities population density</title>
-    <link rel="stylesheet" href="/master.css" media="screen" title="no title">
+    <link rel="stylesheet" href="/main.css" media="screen" title="no title">
+    <script type="text/javascript" src="/javascripts/jquery.js"></script>
+    <script type="text/javascript" src="/javascripts/tablesorter/jquery.tablesorter.js"></script>
+      <!-- jQuery plugin http://tablesorter.com/docs/#Download -->
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $("table").tablesorter({
+              sortList: [[0,0],[2,0]]
+          });
+      });
+    </script>
   </head>
   <body>
     <header>

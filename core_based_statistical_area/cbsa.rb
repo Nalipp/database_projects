@@ -14,6 +14,7 @@ configure do
 end
 
 configure(:development) do
+  enable :sessions
   require "sinatra/reloader"
   also_reload "sequel_persistence.rb"
 end
@@ -27,6 +28,8 @@ get "/" do
 end
 
 get "/query_results" do
+  @metro_query = @storage.all_populatations
+
   erb :query_results, layout: :layout
 end
 
