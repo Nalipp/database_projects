@@ -13,7 +13,7 @@
     <tbody>
       <% @metro_query.each do |population| %>
         <tr>
-          <td><%= population[:geographic_area] %></td>
+          <td><%= population[:geographic_area][0..35] %></td>
           <td><%= population[:state] %></td>
           <td><%= population[:pop_2010] %></td>
           <td><%= population[:sq_miles] %></td>
