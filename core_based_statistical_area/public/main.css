@@ -72,9 +72,9 @@ form button {
   color: black;
   border: 2px solid grey;
   border-radius: 20px;
-  padding: 4px 20px;
+  padding: 8px 40px;
   background-color: white;
-  font-size:1em;
+  font-size:1.4em;
   margin-top: 40px;
 }
 
@@ -92,6 +92,15 @@ label a {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+}
+
+input[type='text'] {
+  font-size: 26px;
+  color: grey;
+  padding: 10px;
+  border: 2px solid grey;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 /* tables */

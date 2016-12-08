@@ -1,5 +1,3 @@
-require 'pry'
-
 require "sinatra"
 require "sinatra/content_for"
 require "tilt/erubis"
@@ -24,10 +22,10 @@ before do
 end
 
 get "/" do
-  redirect "/query_results"
+  redirect "/population_form"
 end
 
-get "/query_results" do
+get "/population_form" do
   @metro_query = @storage.all_populatations
 
   erb :query_results, layout: :layout
